@@ -16,3 +16,16 @@ section {
     margin: 25px auto;
 }
 
+#Name{
+    font-weight: bold;
+}
+
+.Header{
+    color: orchid;
+}
+
+h1 {
+    position: relative;
+    top: -25px;
+    left: -10px;
+}

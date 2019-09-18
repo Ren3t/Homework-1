@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="res/images/favicon.ico">
-    <title>Hello world!</title>
+    <title>Student information</title>
     <link rel="stylesheet" href="res/css/style.css"> <!-- Link style.css to index.html -->
 </head>
 
 <body>
 <header>
-    <strong>Welcome to your dashboard!</strong>
+    <strong style="color:cornflowerblue">Welcome to your dashboard!</strong>
 </header>
 
 <section>
@@ -18,7 +18,7 @@
     </div>
     <div>
         <ol>
-            <li>John Doe</li>
+            <li id="Name">John Doe</li> <!-- ID selector -->
             <li>27/06/1993</li>
             <li>Software Engineering</li>
         </ol>
@@ -30,11 +30,11 @@
 
 <section>
     <h1>
-        <span>Courses</span>
+        <span >Courses</span>
     </h1>
     <table>
         <thead>
-        <tr>
+        <tr class="Header">
             <th>#</th>
             <th>Course Title</th>
             <th>Semester</th>
