@@ -16,7 +16,7 @@ section {
     display: flex;
     width: 95%;
     margin: 25px auto;
-	
+
 }
 
 #Name{
@@ -56,8 +56,23 @@ table>thead {
 	opacity:0.7;
 }
 thead th{
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 section~footer li{
 	list-style-type: none;
+}
+p{
+  color: blue;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+p.aqua{
+  color: aqua;
+  font-size: 11px;
+  font-family: Helvetica;
+}
+p.purple{
+  color: purple;
+  font-size: 10px;
+  font-family: Helvetica;
 }
